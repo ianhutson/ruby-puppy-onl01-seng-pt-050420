@@ -20,4 +20,7 @@ def self.print_all
   end
 end
 
+def name
+  @@all.name
+end
 end
