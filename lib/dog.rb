@@ -21,6 +21,7 @@ def self.print_all
 end
 
 def name
-  @@all[:name]
+  @@all[name]
 end
+
 end
