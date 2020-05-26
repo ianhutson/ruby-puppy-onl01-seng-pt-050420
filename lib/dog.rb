@@ -1,5 +1,6 @@
 # Add your code here
 class Dog
+  attr_accessor :name
 @@all = []
 
 def initialize(name)
@@ -20,8 +21,5 @@ def self.print_all
   end
 end
 
-def name
-  @@all[name]
-end
 
 end
